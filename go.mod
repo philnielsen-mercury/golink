@@ -10,6 +10,8 @@ require (
 	tailscale.com v1.96.1
 )
 
+replace tailscale.com => github.com/philnielsen-mercury/tailscale v0.0.0-20260313185312-c4a4fd5428b3
+
 require (
 	filippo.io/edwards25519 v1.2.0 // indirect
 	github.com/akutz/memconn v0.1.0 // indirect
